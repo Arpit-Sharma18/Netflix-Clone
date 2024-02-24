@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+body {
+    background-image: url(mainimg.jpg);
+    opacity: 0.8;
+}
+#logo {
+    background-image: url("https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png");
+    
+    height: 50px;
+    width: 50px;
+}
+#maindiv {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 70px;
+}
+
+#lan {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+   
+}
+#signin {
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    font-size: 19px;
+}
+#heading {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#maintxt {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 16px;
+}
+
+#email {
+    background-color: black;
+    color: grey;
+    font-size: 30px;
+    height: 40px;
+    padding: 20px,16px,4px;
+    display: flex inline;
+    justify-content: center;
+
+}
+#start {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 39px;
+    height: 55px;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-self: center;
+}
